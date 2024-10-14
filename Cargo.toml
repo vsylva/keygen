@@ -1,0 +1,7 @@
+[package]
+name = "keygen"
+edition = "2021"
+
+[dependencies]
+winsafe = { version = "0.0.22", features = ["gui", "user", "kernel"] }
+md5 = "0.7.0"

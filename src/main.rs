@@ -89,7 +89,7 @@ fn window_main() -> gui::WindowMain {
     );
 
     button_set_resolution.on().bn_clicked(move || {
-        if edit_input.text().is_empty(){
+        if edit_input.text().is_empty() {
             return Ok(());
         }
 

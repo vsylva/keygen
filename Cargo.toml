@@ -1,6 +1,8 @@
 [package]
 name = "keygen"
 edition = "2021"
+license-file = "LICENSE"
+publish = false
 
 [dependencies]
 winsafe = { version = "0.0.22", features = ["gui", "user", "kernel"] }
